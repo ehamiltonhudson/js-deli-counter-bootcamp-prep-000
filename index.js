@@ -21,6 +21,6 @@ function currentLine(line) {
     while (line.length > 0) {
     line.push(` ` + [i+1] + `. ` + line[i]);
     }
-    return `The line is currently: ` + line;
+    return lineArray.push(`The line is currently: ` + line);
   }
 }
